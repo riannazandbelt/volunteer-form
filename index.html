@@ -18,118 +18,157 @@
   </header>
 
   <section>
-    <div class="border pad-b-2 pad-t-2">
-    <div class="push">
-      <label class="" for="name">Personal details</label>
-    </div>
     <form class="grid" action="https://formspree.io/zand0025@algonquinlive.com" method="POST">
-      <div class="unit xs-1 s-1">
-        <label for="name">Full name</label>
-        <input id="name" type="text" name="name" required>
-        <p class="italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+      <div class="border pad-b-2 pad-t-2">
+        <div class="push">
+          <label class="" for="name">Personal details</label>
+        </div>
+        <div class="unit xs-1 s-1">
+          <label for="name">Full name</label>
+          <input id="name" type="text" name="name" required>
+          <p class="italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+        </div>
+        <div class="unit xs-1 s-1">
+          <label for="name">What should we call you?</label>
+          <input id="name" type="text" name="name" required>
+          <p class="italic">What all your friends call you, e.g. “Liz”.</p>
+        </div>
+        <div class="unit xs-1 s-1">
+          <label for="date">Date of birth</label>
+          <input id="date" type="date" name="date" required>
+        </div>
+        <div class="unit xs-1 s-1">
+          <label for="size">T-shirt size</label>
+          <select id="size" name="_subject">
+            <option value="" disabled selected hidden>Select a t-shirt size</option>
+            <option>Fitted: XS</option>
+            <option>Fitted: S</option>
+            <option>Fitted: M</option>
+            <option>Fitted: L</option>
+            <option>Fitted: XL</option>
+            <option>Straight-cut: XS</option>
+            <option>Straight-cut: S</option>
+            <option>Straight-cut: M</option>
+            <option>Straight-cut: L</option>
+            <option>Straight-cut: XL</option>
+          </select>
+        </div>
+        <div class="unit xs-1 s-1">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required>
+        </div>
+        <div class="unit xs-1 s-1 ">
+          <label for="tel">Phone number <span class="opt italic">(optional)</span></label>
+          <input id="tel" type="tel" name="tel" required>
+        </div>
       </div>
-      <div class="unit xs-1 s-1">
-        <label for="name">What should we call you?</label>
-        <input id="name" type="text" name="name" required>
-        <p class="italic">What all your friends call you, e.g. “Liz”.</p>
+      <div class="border pad-b-2 pad-t-2">
+        <div class="push">
+          <label class="" for="name">Address</label>
+        </div>
+        <div class="unit xs-1 s-1 ">
+          <label for="street-address">Street address</label>
+          <input id="street-address" type="text" name="street-address" required>
+        </div>
+        <div class="unit xs-1 s-1 ">
+          <label for="city">City</label>
+          <input id="city" type="text" name="city" required>
+        </div>
+        <div class="unit xs-1 s-1">
+          <label for="province">Province</label>
+          <select id="province" name="_subject">
+            <option value="" disabled selected hidden>Select a province</option>
+            <option>Alberta</option>
+            <option>British Columbia</option>
+            <option>Manitoba</option>
+            <option>New Brunswick</option>
+            <option>Newfoundland & Labrador</option>
+            <option>Northwest Territories</option>
+            <option>Nova Scotia</option>
+            <option>Nunavut</option>
+            <option>Ontario</option>
+            <option>Prince Edward Island</option>
+            <option>Québec</option>
+            <option>Saskatchewan</option>
+            <option>Yukon</option>
+          </select>
+        </div>
+        <div class="unit xs-1 s-1 ">
+          <label for="postal-code">Postal code</label>
+          <input id="postal-code" type="text" name="postal-code" required>
+        </div>
       </div>
-      <div class="unit xs-1 s-1">
-        <label for="date">Date of birth</label>
-        <input id="date" type="date" name="date" required>
-      </div>
-      <div class="unit xs-1 s-1">
-        <label for="size">T-shirt size</label>
-        <select id="size" name="_subject">
-          <option value="" disabled selected hidden>Select a t-shirt size</option>
-          <option>Fitted: XS</option>
-          <option>Fitted: S</option>
-          <option>Fitted: M</option>
-          <option>Fitted: L</option>
-          <option>Fitted: XL</option>
-          <option>Straight-cut: XS</option>
-          <option>Straight-cut: S</option>
-          <option>Straight-cut: M</option>
-          <option>Straight-cut: L</option>
-          <option>Straight-cut: XL</option>
-        </select>
-      </div>
-      <div class="unit xs-1 s-1">
-        <label for="email">Email</label>
-        <input id="email" type="email" name="email" required>
-      </div>
-      <div class="unit xs-1 s-1 ">
-        <label for="tel">Phone number <span class="opt italic">(optional)</span></label>
-        <input id="tel" type="tel" name="tel" required>
-      </div>
-    </div>
-
-
+    </form>
     </section>
 
+    <fieldset class="">
+      <legend class="push-1-2 pad-t-2">What activities are you interested in helping with?</legend>
+      <input type="checkbox" id="holes" name="activities">
+      <label for="holes">Digging holes</label>
+      <input type="checkbox" id="dirty" name="activities">
+      <label for="dirty">Getting dirty</label>
+      <input type="checkbox" id="heavy" name="activities">
+      <label for="heavy">Lifting heavy objects</label>
+      <input type="checkbox" id="drive" name="activities">
+      <label for="drive">Driving people</label>
+      <input type="checkbox" id="trees" name="activities">
+      <label for="trees">Transporting trees</label>
+      <input type="checkbox" id="photos" name="activities">
+      <label for="photos">Taking photos</label>
+      <input type="checkbox" id="publishing" name="activities">
+      <label for="publishing">Online publishing</label>
+      <input type="checkbox" id="managing" name="activities">
+      <label for="managing">Managing people</label>
+
+      <legend class="push-1-2 pad-t-2">Do you have any experience with the following?</legend>
+      <input type="checkbox" id="shovels" name="activities">
+      <label for="shovels">Shovels</label>
+      <input type="checkbox" id="gps" name="activities">
+      <label for="gps">Hand-held GPS</label>
+      <input type="checkbox" id="writing" name="activities">
+      <label for="writing">Writing & blogging</label>
+      <input type="checkbox" id="photography" name="activities">
+      <label for="photography">Photography</label>
+      <input type="checkbox" id="hill" name="activities">
+      <label for="hill">Trail & hill climbing</label>
+      <input type="checkbox" id="bush" name="activities">
+      <label for="bush">Bush craft</label>
+      <input type="checkbox" id="atv" name="activities">
+      <label for="atv">ATVs</label>
+      <input type="checkbox" id="plant" name="activities">
+      <label for="plant">Plant identification</label>
+      <input type="checkbox" id="planning" name="activities">
+      <label for="planning">Special event planning</label>
+      <input type="checkbox" id="groups" name="activities">
+      <label for="groups">Speaking to groups</label>
+
+      <legend class="push pad-t-1-2">Do you have a valid driver’s license?</legend>
+      <input type="radio" id="yes" name="agree">
+      <label for="yes">Yes</label>
+      <input type="radio" id="no" name="agree">
+      <label for="no">No</label>
+
+      <legend class="push pad-t-1-2">Do you have a pick-up truck you’d be willing to use?</legend>
+      <input type="radio" id="yes" name="agree">
+      <label for="yes">Yes</label>
+      <input type="radio" id="no" name="agree">
+      <label for="no">No</label>
+
+      <legend class="push pad-t-1-2">Do you have up-to-date first-aid certification?</legend>
+      <input type="radio" id="yes" name="agree">
+      <label for="yes">Yes</label>
+      <input type="radio" id="no" name="agree">
+      <label for="no">No</label>
+    </fieldset>
+
+    <p>Please let us know any comments or questions you may have.</p>
+
+    <div>
+      <button class="btn" type="submit">Apply</button>
+    </div>
 
 
-    Address
-    Street address
-    City
-    Postal code
+<footer class="island">© Tree Hugger International Organization</footer>
 
-    Province
-    - Select a province
-    - Alberta
-    - British Columbia
-    - Manitoba
-    - New Brunswick
-    - Newfoundland & Labrador
-    - Northwest Territories
-    - Nova Scotia
-    - Nunavut
-    - Ontario
-    - Prince Edward Island
-    - Québec
-    - Saskatchewan
-    - Yukon
-
-    What activities are you interested in helping with?
-    - Digging holes
-    - Getting dirty
-    - Lifting heavy objects
-    - Driving people
-    - Transporting trees
-    - Taking photos
-    - Online publishing
-    - Managing people
-
-    Do you have any experience with the following?
-    - Shovels
-    - Hand-held GPS
-    - Writing & blogging
-    - Photography
-    - Trail & hill climbing
-    - Bush craft
-    - ATVs
-    - Plant identification
-    - Special event planning
-    - Speaking to groups
-
-    Do you have a valid driver’s license?
-    - Yes
-    - No
-
-    Do you have a pick-up truck you’d be willing to use?
-    - Yes
-    - No
-
-    Do you have up-to-date first-aid certification?
-    - Yes
-    - No
-
-    Please let us know any comments or questions you may have.
-
-    Apply
-
-
-
-    <footer>© Tree Hugger International Organization</footer>
-
-  </body>
-  </html>
+</body>
+</html>
