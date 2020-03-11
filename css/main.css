@@ -1,0 +1,17 @@
+html {
+  font-family: 'Noto Serif', serif;
+}
+
+header,
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.opt {
+  color: #70ad55;
+}
+
+.border {
+  border-bottom: 1px solid #6e8c62;
+}
