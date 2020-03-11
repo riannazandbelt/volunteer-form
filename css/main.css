@@ -22,6 +22,7 @@ footer {
 }
 
 input,
-textarea {
+textarea,
+select {
   border-color: #6e8c62;
 }
