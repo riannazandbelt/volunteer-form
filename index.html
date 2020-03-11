@@ -17,9 +17,9 @@
     <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </header>
 
-  <section>
+  <section class="gutter">
     <form class="grid" action="https://formspree.io/zand0025@algonquinlive.com" method="POST">
-      <div class="border pad-b-2 pad-t-2">
+      <div class="unit xs-1 s-1 border pad-b-2 pad-t-2">
         <div class="push">
           <label class="" for="name">Personal details</label>
         </div>
@@ -62,9 +62,9 @@
           <input id="tel" type="tel" name="tel" required>
         </div>
       </div>
-      <div class="border pad-b-2 pad-t-2">
+      <div class="unit xs-1 s-1 border pad-b-2 pad-t-2">
         <div class="push">
-          <label class="" for="name">Address</label>
+          <label class="unit xs-1 s-1" for="name">Address</label>
         </div>
         <div class="unit xs-1 s-1 ">
           <label for="street-address">Street address</label>
@@ -101,7 +101,8 @@
     </form>
     </section>
 
-    <fieldset class="">
+<div class="gutter">
+    <fieldset>
       <legend class="push-1-2 pad-t-2">What activities are you interested in helping with?</legend>
       <input type="checkbox" id="holes" name="activities">
       <label for="holes">Digging holes</label>
@@ -161,12 +162,15 @@
       <label for="no">No</label>
     </fieldset>
 
-    <p>Please let us know any comments or questions you may have.</p>
-
-    <div>
-      <button class="btn" type="submit">Apply</button>
+    <div class="unit xs-1 s-1 push">
+      <label for="question">Please let us know any comments or questions you may have.<span class="opt italic">(optional)</span></label>
+      <textarea id="question" name="message" required></textarea>
     </div>
 
+    <div class="text-center push">
+      <button class="btn" type="submit">Apply</button>
+    </div>
+</div>
 
 <footer class="island">© Tree Hugger International Organization</footer>
 
