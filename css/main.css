@@ -26,3 +26,7 @@ textarea,
 select {
   border-color: #6e8c62;
 }
+
+textarea {
+  height: 10em;
+}
