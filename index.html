@@ -21,25 +21,25 @@
 
   <section class="gutter-1-2">
     <form action="https://formspree.io/zand0025@algonquinlive.com" method="POST">
-      <fieldset class="pad-t-2 line wrapper">
+      <fieldset class="pad-t-2 line wrapper push-1">
         <legend></legend>
         <div class="grid border pad-b-2">
           <div class="unit xs-1 s-1 m-1 l-1">
-            <label class="giga bold push" for="name">Personal details</label>
+            <label class="giga bold push" for="details">Personal details</label>
           </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2">
-            <label class="push-1-8" for="name">Full name</label>
-            <input id="name" type="text" name="name" required>
+            <label class="push-1-8" for="f-name">Full name</label>
+            <input id="f-name" type="text" name="full-name" required>
             <p class="italic nano">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
           </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2">
             <label class="push-1-8" for="nickname">What should we call you?</label>
-            <input id="nickname" type="text" name="nickname" required>
+            <input id="nickname" type="text" name="nick-name" required>
             <p class="italic nano">What all your friends call you, e.g. “Liz”.</p>
           </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
             <label class="push-1-8" for="date">Date of birth</label>
-            <input id="date" type="date" name="date" required>
+            <input id="date" type="date" name="date-of-birth" required>
           </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
             <label class="push-1-8" for="size">T-shirt size</label>
@@ -59,21 +59,21 @@
           </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
             <label class="push-1-8" for="email">Email</label>
-            <input id="email" type="email" name="email" required>
+            <input id="email" type="email" name="email-address" required>
           </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2">
             <label class="push-1-8" for="tel">Phone number <span class="opt italic">(optional)</span></label>
-            <input id="tel" type="tel" name="tel" required>
+            <input id="tel" type="tel" name="telephone" required>
           </div>
         </div>
       </fieldset>
 
       <fieldset class="line wrapper">
         <legend></legend>
-        <div class="border pad-b-2">
+        <div class="border pad-b-2 pad-t">
           <div class="xs-1 s-1 m-1 l-1">
             <div class="push">
-              <label class="giga bold push" for="name">Address</label>
+              <label class="giga bold push" for="address">Address</label>
             </div>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1-2 l-1-2 push pad-t-1-2">
@@ -82,7 +82,7 @@
               </div>
               <div class="unit xs-1 s-1 m-1-2 l-1-2 push pad-t-1-2">
                 <label class="push-1-8" for="city">City</label>
-                <input id="city" type="text" name="city" required>
+                <input id="city" type="text" name="what-city" required>
               </div>
               <div class="unit xs-1 s-1 m-1-2 l-1-2 push pad-t-1-2">
                 <label class="push-1-8" for="province">Province</label>
@@ -105,7 +105,7 @@
               </div>
               <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2">
                 <label class="push-1-8" for="postal-code">Postal code</label>
-                <input id="postal-code" type="text" name="postal-code" required>
+                <input id="postal-code" type="text" name="postalcode" required>
               </div>
             </div>
           </div>
@@ -224,11 +224,11 @@
       <div class="grid">
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 ">
           <input type="radio" id="yess" name="truck">
-          <label for="yes">Yes</label>
+          <label for="yess">Yes</label>
         </div>
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 ">
           <input type="radio" id="noo" name="truck">
-          <label for="no">No</label>
+          <label for="noo">No</label>
         </div>
       </div>
 
@@ -237,11 +237,11 @@
       <div class="grid">
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 ">
           <input type="radio" id="yep" name="first-aid">
-          <label for="yes">Yes</label>
+          <label for="yep">Yes</label>
         </div>
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 ">
           <input type="radio" id="nope" name="first-aid">
-          <label for="no">No</label>
+          <label for="nope">No</label>
         </div>
       </div>
     </div>
@@ -253,7 +253,7 @@
         <div class="push-1-4 giga bold">
           <label for="question">Please let us know any comments or questions you may have.<span class="opt italic">(optional)</span></label>
         </div>
-        <textarea id="question" name="message" required></textarea>
+        <textarea id="question" name="question" required></textarea>
       </div>
     </div>
   </div>
