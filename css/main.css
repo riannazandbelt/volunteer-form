@@ -30,3 +30,7 @@ select {
 textarea {
   height: 10em;
 }
+
+.line {
+  border: none;
+}
